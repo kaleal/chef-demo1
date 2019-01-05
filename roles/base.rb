@@ -1,9 +1,11 @@
-name "base"
-description "Common configurations"
+name 'base'
+description 'Common configurations'
 run_list [
-  "recipe[toolbox]"
+  'recipe[toolbox]',
 ]
-default_attributes({
-})
-override_attributes({
-})
+
+default_attributes({}
+                  )
+
+override_attributes({}
+                   )
