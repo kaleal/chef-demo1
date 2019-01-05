@@ -1,8 +1,8 @@
 name "webservers"
 description "Webservers specific configurations"
 run_list [
-  "recipe[apache]",
-  "recipe[toolbox]"
+  "role[base]",
+  "recipe[apache]"
 ]
 default_attributes({
 })
