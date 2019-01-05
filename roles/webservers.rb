@@ -1,10 +1,12 @@
-name "webservers"
-description "Webservers specific configurations"
+name 'webservers'
+description 'Webservers specific configurations'
 run_list [
-  "role[base]",
-  "recipe[apache]"
+  'role[base]',
+  'recipe[apache]',
 ]
-default_attributes({
-})
-override_attributes({
-})
+
+default_attributes({}
+                  )
+
+override_attributes({}
+                   )
