@@ -13,5 +13,6 @@ suites:
   - name: webserver
     run_list:
       - recipe[apache]
+      - recipe[toolbox]
 
     attributes:
