@@ -11,6 +11,6 @@ platforms:
 suites:
   - name: webserver
     run_list:
-      - role[webservers]
+      - role[webserver]
 
     attributes:
